@@ -1,0 +1,9 @@
+Program ini memiliki tiga buah class Penduduk,Nelayan,Dokter, dan App dengan Penduduk sebagai induk dari class penduduk dan nelayan.
+
+Class Penduduk (/Parent) => Class Penduduk merupakan class super atau class induk dari class penduduk dan nelayan, class ini terdiri dari 4 buat properti atau atribut tiga atribut bertipe string daan satu atribut bertipe integer dengan access modifier protected. Selain itu class penduduk memiliki dua buah methode getInPenduduk() yang digunakan untuk mengambil input penduduk dan methode tampil penduduk untuk menampilkan data penduduk.
+
+Class Nelayan (Anak/Child) => Nelayan merupakan class anak dari class penduduk yang dihubungkan atau diwariskan dengan key extends, class ini terdiri dari berbagai atribute dan juga methode, diantaranya ada 2 atribut bertipe int, methode getInNelayan() yang digunakan untuk mengambil input dan menyimpannya ke dalam variabel yang tadi telah disebutkan. ada juga methode tampilNelayan() yang digunakan untuk menampilkan data dari methode tampilPenduduk() dan juga tampilNelayan().
+
+Class Dokter (Anak/Child) => Dokter merupakan class anak dari class penduduk yang dihubungkan atau diwariskan dengan key extends, class ini terdiri dari berbagai atribute dan juga methode, diantaranya ada 2 atribut bertipe int, methode getInDokter() yang digunakan untuk mengambil input dan menyimpannya ke dalam variabel yang tadi telah disebutkan. ada juga methode tampilDokter() yang digunakan untuk menampilkan data dari methode tampilPenduduk() dan juga tampilDokter().
+
+Class App => Merupakan class yang berisi fungsi main, fungsi main merupakan fungsi yang akan dicari dan dijankan pertama kali oleh compiler. di dalam fungsi ini terdiri dari dua objek yang digunakan untuk memanggil atau menjalankan segala atribut dan methode yang berada di dalam objek tersebut.
